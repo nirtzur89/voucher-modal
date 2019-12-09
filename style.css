@@ -63,7 +63,7 @@ html {
 
 .main {
   text-align: center;
-  margin-top: 20%;
+  margin: 20%;
 }
 
 /* header */
@@ -149,7 +149,7 @@ html {
 .grid-wrapper {
   display: grid;
   grid-gap: 40px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
   padding: 0 2%;
 }
 
@@ -207,7 +207,7 @@ html {
   .grid-wrapper {
     display: grid;
     grid-gap: 2px;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
     padding: 0;
   }
   .modal-content {
