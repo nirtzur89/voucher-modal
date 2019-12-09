@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Atento Modal</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1>Buy Voucher</h1>
+      <button id="modalBtn" class="button">Click Here</button>
+    </div>
+
+    <!-- the modal -->
+    <div id="modalElement" class="modal">
+      <div class="modal-content zone">
+        <div class="modal-header">
+          <h3 class="header-text">powered by Atento</h3>
+          <span id="closeBtn" class="close-btn">close</span>
+        </div>
+        <div class="title">
+          <div class="title-box">
+            <p class="thanks">
+              <span class="bold">THANK YOU, </span>FOR GIVING <br />
+              OUR SERVICE AS A GIFT.
+            </p>
+          </div>
+          <div class="title-box">
+            <div class="more">
+              <p>
+                WHO'S THE LUCKY ONE?
+              </p>
+              <input class="input hvr" placeholder="Name (optional)" />
+            </div>
+            <div class="more">
+              <button class="btn hvr title-btn">
+                I WANT TO BUY<br />
+                MORE THAN ONE VOUCHER
+              </button>
+            </div>
+          </div>
+        </div>
+        <p class="choose">Please choose one of the following options:</p>
+        <div class="grid-wrapper">
+          <div class="box hvr">
+            <img class="image" src="./img/spa1.jpg" />
+            <div class="mobile-box">
+              <p class="bold">SPAAA DAY Single</p>
+              <p>
+                A nice description of the voucher <br />
+                you can give somebody you like.
+              </p>
+            </div>
+          </div>
+          <div class="box hvr">
+            <img class="image" src="./img/spa2.jpg" />
+            <div class="mobile-box">
+              <p class="bold">Wert Gutschein</p>
+              <input class="input-box" placeholder="XXX Euros" />
+              <p>
+                A nice description of the voucher <br />
+                you can give somebody you like.
+              </p>
+            </div>
+          </div>
+          <div class="box hvr">
+            <img class="image" src="./img/spa3.jpg" />
+            <div class="mobile-box">
+              <p class="bold">SPAAA DAY Double</p>
+              <p>
+                A nice description of the voucher <br />
+                you can give somebody you like.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-chooser">
+          <button class="btn hvr chooser">Procede to checkout</button>
+          <p>- OR -</p>
+          <button class="btn hvr chooser">Choose Delivery options</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
